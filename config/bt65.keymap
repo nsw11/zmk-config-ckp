@@ -12,8 +12,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp LALT>
-                , <&macro_tap &kp TAB>
+                = <&macro_press &kp LALT>
+                , <&macro_press &kp TAB>
                 ;
         };
 	back_tab: back_tab {
@@ -21,9 +21,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp LALT>
-                , <&macro_tap &kp TAB>
-		, <&macro_tap &kp LSHIFT>
+                = <&macro_press &kp LALT>
+                , <&macro_press &kp TAB>
+		, <&macro_press &kp LSHIFT>
                 ;
         };
     };
