@@ -27,7 +27,6 @@
                 , <&macro_ &kp TAB>
 		, <&macro_release &kp LSHIFT>
 		, <&macro_release &kp LALT>
-		
                 ;
         };
     };
