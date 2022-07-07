@@ -13,7 +13,8 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LALT>
-                , <&macro_press &kp TAB>
+                , <&macro_tap &kp TAB>
+		, <&macro_release &kp LALT>
                 ;
         };
 	back_tab: back_tab {
@@ -22,8 +23,11 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LALT>
-                , <&macro_press &kp TAB>
 		, <&macro_press &kp LSHIFT>
+                , <&macro_ &kp TAB>
+		, <&macro_release &kp LSHIFT>
+		, <&macro_release &kp LALT>
+		
                 ;
         };
     };
